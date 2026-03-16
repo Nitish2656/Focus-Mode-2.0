@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Focus Tracker",
-    "slug": "focusmode-professional",
+    "name": "Focus Mode 2.0",
+    "slug": "focus-mode-2-0",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./app_assets/icon.png",
@@ -13,13 +13,13 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.focus.tracker.mobile",
+      "bundleIdentifier": "com.focus.mode.v2",
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false
       }
     },
     "android": {
-      "package": "com.focus.tracker.mobile",
+      "package": "com.focus.mode.v2",
       "permissions": [
         "android.permission.PACKAGE_USAGE_STATS",
         "android.permission.SYSTEM_ALERT_WINDOW"
@@ -33,11 +33,6 @@
     },
     "web": {
       "favicon": "./app_assets/favicon.png"
-    },
-    "extra": {
-      "eas": {
-        "projectId": "a6c6783d-ab7d-44ec-9fb1-b89a6938cfbc"
-      }
     },
     "plugins": [
       "expo-font",
