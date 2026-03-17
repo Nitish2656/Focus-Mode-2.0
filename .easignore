@@ -1,7 +1,15 @@
+# EAS build ignore
 node_modules/
 .expo/
 dist/
 web-build/
-Focus_Old/
-Focus_Backup_App/
-web_backup/
+android/
+ios/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+.easignore
+# Exclude git to avoid Windows/OneDrive packing quirks
+.git/
